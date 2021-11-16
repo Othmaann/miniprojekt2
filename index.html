@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>miniprojekt2</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script/scripts.js" defer></script>
+  <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <main>
+            <article class="rps-instructions">
+                <h1>Welcome player!</h1>
+                <ul>
+                    <li>1: Fill in your username</li>
+                    <li>2: Choose your hand</li>
+                    <li>3: First to 3 points win!</li>
+
+                </ul>
+
+            </article>
+            <article class="rps-steps">
+                <div class="container">
+                    <input class="rps-name" type="text" placeholder="Your name!"></input>
+                    <button type="button" class="rps-nameinput">Start!</button>
+                </div>
+            </article>
+            <article class="rps-player">
+                <h1 class="rps-displayusername">Welcome </h1>
+                <p class="rps-cym">Choose your Move!</p>
+                <button type="button" class="rps-rock">✊</button>
+                <button type="button" class="rps-paper">✋</button> 
+                <button type="button" class="rps-scissors">✌</button> 
+                <h1 class="rps-displaycomputer">Computer:</h1>
+                <p class="rps-computermove">Computer choose: </p>
+            </article>
+            <article class="rps-results">
+                <div class="container">
+                    <h1>Results:</h1>
+                    <p>You: 0 Computer: 0 Tied: 0 </p>
+                    <button class="rps-restart" type="button">Restart</button>
+                </div>
+            </article>
+
+
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>
